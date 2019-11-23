@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace folderBrowser
 {
@@ -17,13 +18,19 @@ namespace folderBrowser
             InitializeComponent();
         }
 
-        private void btnFolderBrowser_Click(object sender, EventArgs e)
+        
+
+        private void btnOpenFile_Click(object sender, EventArgs e)
         {
-            if (folderBrowserDialog1.ShowDialog() == DialogResult.OK)
+if (openFileDialog1.ShowDialog()==DialogResult.OK)
             {
+                txtboxFileName.Text = openFileDialog1.FileName;
+                DirectoryInfo di = new DirectoryInfo(openFileDialog1.FileName);
+                propertyGrid2.SelectedObject = di;
                 propertyGrid1.Refresh();
-                txtboxFolder.Text = folderBrowserDialog1.SelectedPath;
             }
         }
+
+
     }
 }

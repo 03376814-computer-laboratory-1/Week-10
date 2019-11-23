@@ -10,29 +10,29 @@ using System.Windows.Forms;
 
 namespace SumTwoNumber
 {
-    public partial class SumberNumbers : Form
+    public partial class Form1 : Form
     {
-        public SumberNumbers()
+        public Form1()
         {
             InitializeComponent();
         }
 
-        private void secondNumberLabel_Click(object sender, EventArgs e)
-        {
+       
 
+        
+
+        private void btnFontDialog_Click(object sender, EventArgs e)
+        {
+if (fontDialog1.ShowDialog()==DialogResult.OK)
+            {
+                richTextBox1.Font = fontDialog1.Font;
+                propertyGrid1.Refresh();
+            }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnUpdateRichTextBox1_Click(object sender, EventArgs e)
         {
-            //get input values and convert strings to doubles
-            double number1 = Double.Parse(firstNumberTextBox.Text);
-            double number2 = Double.Parse(secondNumberTextBox.Text);
-
-            //sum the two numbers
-            double sum = number1 + number2;
-
-            //display maximum value
-            sumLabel.Text = "Sum :" + sum;
+            richTextBox1.Text = textBox1.Text;
         }
     }
 }

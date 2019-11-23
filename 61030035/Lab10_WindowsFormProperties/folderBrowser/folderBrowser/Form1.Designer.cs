@@ -28,44 +28,59 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnFolderBrowser = new System.Windows.Forms.Button();
-            this.txtboxFolder = new System.Windows.Forms.TextBox();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.btnOpenFile = new System.Windows.Forms.Button();
+            this.txtboxFileName = new System.Windows.Forms.TextBox();
             this.propertyGrid1 = new System.Windows.Forms.PropertyGrid();
-            this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
+            this.propertyGrid2 = new System.Windows.Forms.PropertyGrid();
             this.SuspendLayout();
             // 
-            // btnFolderBrowser
+            // openFileDialog1
             // 
-            this.btnFolderBrowser.Location = new System.Drawing.Point(42, 28);
-            this.btnFolderBrowser.Name = "btnFolderBrowser";
-            this.btnFolderBrowser.Size = new System.Drawing.Size(104, 34);
-            this.btnFolderBrowser.TabIndex = 0;
-            this.btnFolderBrowser.Text = "Browse";
-            this.btnFolderBrowser.UseVisualStyleBackColor = true;
-            this.btnFolderBrowser.Click += new System.EventHandler(this.btnFolderBrowser_Click);
+            this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // txtboxFolder
+            // btnOpenFile
             // 
-            this.txtboxFolder.Location = new System.Drawing.Point(42, 113);
-            this.txtboxFolder.Name = "txtboxFolder";
-            this.txtboxFolder.Size = new System.Drawing.Size(187, 26);
-            this.txtboxFolder.TabIndex = 1;
+            this.btnOpenFile.Location = new System.Drawing.Point(43, 24);
+            this.btnOpenFile.Name = "btnOpenFile";
+            this.btnOpenFile.Size = new System.Drawing.Size(116, 40);
+            this.btnOpenFile.TabIndex = 0;
+            this.btnOpenFile.Text = "Open File";
+            this.btnOpenFile.UseVisualStyleBackColor = true;
+            this.btnOpenFile.Click += new System.EventHandler(this.btnOpenFile_Click);
+            // 
+            // txtboxFileName
+            // 
+            this.txtboxFileName.Location = new System.Drawing.Point(43, 98);
+            this.txtboxFileName.Name = "txtboxFileName";
+            this.txtboxFileName.Size = new System.Drawing.Size(202, 26);
+            this.txtboxFileName.TabIndex = 1;
             // 
             // propertyGrid1
             // 
-            this.propertyGrid1.Location = new System.Drawing.Point(397, 28);
+            this.propertyGrid1.Location = new System.Drawing.Point(356, 24);
             this.propertyGrid1.Name = "propertyGrid1";
-            this.propertyGrid1.Size = new System.Drawing.Size(333, 387);
+            this.propertyGrid1.SelectedObject = this.openFileDialog1;
+            this.propertyGrid1.Size = new System.Drawing.Size(249, 251);
             this.propertyGrid1.TabIndex = 2;
+            this.propertyGrid1.Click += new System.EventHandler(this.propertyGrid1_Click);
+            // 
+            // propertyGrid2
+            // 
+            this.propertyGrid2.Location = new System.Drawing.Point(43, 185);
+            this.propertyGrid2.Name = "propertyGrid2";
+            this.propertyGrid2.Size = new System.Drawing.Size(130, 130);
+            this.propertyGrid2.TabIndex = 3;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.propertyGrid2);
             this.Controls.Add(this.propertyGrid1);
-            this.Controls.Add(this.txtboxFolder);
-            this.Controls.Add(this.btnFolderBrowser);
+            this.Controls.Add(this.txtboxFileName);
+            this.Controls.Add(this.btnOpenFile);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -75,10 +90,11 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnFolderBrowser;
-        private System.Windows.Forms.TextBox txtboxFolder;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.Button btnOpenFile;
+        private System.Windows.Forms.TextBox txtboxFileName;
         private System.Windows.Forms.PropertyGrid propertyGrid1;
-        private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
+        private System.Windows.Forms.PropertyGrid propertyGrid2;
     }
 }
 

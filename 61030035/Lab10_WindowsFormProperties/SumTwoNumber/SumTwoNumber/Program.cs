@@ -16,7 +16,7 @@ namespace SumTwoNumber
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SumberNumbers());
+            Application.Run(new Form1());
         }
     }
 }

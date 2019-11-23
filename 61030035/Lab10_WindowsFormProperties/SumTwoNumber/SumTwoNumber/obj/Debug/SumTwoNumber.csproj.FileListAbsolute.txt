@@ -2,8 +2,8 @@ C:\Users\User\Week-10\61030035\Lab10_WindowsFormProperties\SumTwoNumber\SumTwoNu
 C:\Users\User\Week-10\61030035\Lab10_WindowsFormProperties\SumTwoNumber\SumTwoNumber\bin\Debug\SumTwoNumber.exe
 C:\Users\User\Week-10\61030035\Lab10_WindowsFormProperties\SumTwoNumber\SumTwoNumber\bin\Debug\SumTwoNumber.pdb
 C:\Users\User\Week-10\61030035\Lab10_WindowsFormProperties\SumTwoNumber\SumTwoNumber\obj\Debug\SumTwoNumber.csprojAssemblyReference.cache
-C:\Users\User\Week-10\61030035\Lab10_WindowsFormProperties\SumTwoNumber\SumTwoNumber\obj\Debug\SumTwoNumber.SumberNumbers.resources
 C:\Users\User\Week-10\61030035\Lab10_WindowsFormProperties\SumTwoNumber\SumTwoNumber\obj\Debug\SumTwoNumber.Properties.Resources.resources
 C:\Users\User\Week-10\61030035\Lab10_WindowsFormProperties\SumTwoNumber\SumTwoNumber\obj\Debug\SumTwoNumber.csproj.GenerateResource.cache
 C:\Users\User\Week-10\61030035\Lab10_WindowsFormProperties\SumTwoNumber\SumTwoNumber\obj\Debug\SumTwoNumber.exe
 C:\Users\User\Week-10\61030035\Lab10_WindowsFormProperties\SumTwoNumber\SumTwoNumber\obj\Debug\SumTwoNumber.pdb
+C:\Users\User\Week-10\61030035\Lab10_WindowsFormProperties\SumTwoNumber\SumTwoNumber\obj\Debug\SumTwoNumber.Form1.resources
