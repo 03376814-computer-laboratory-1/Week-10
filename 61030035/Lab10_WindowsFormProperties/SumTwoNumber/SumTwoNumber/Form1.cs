@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace SumTwoNumber
 {
@@ -21,18 +22,17 @@ namespace SumTwoNumber
 
         
 
-        private void btnFontDialog_Click(object sender, EventArgs e)
+     
+        private void btnSaveToFile_Click(object sender, EventArgs e)
         {
-if (fontDialog1.ShowDialog()==DialogResult.OK)
+            saveFileDialog.Filter = "txt files(*.txt) | *.txt | All files (*.*) | *.*";
+            saveFileDialog.RestoreDirectory = true;
+
+            if (saveFileDialog.ShowDialog()==DialogResult.OK)
             {
-                richTextBox1.Font = fontDialog1.Font;
+                File.WriteAllText(saveFileDialog.FileName, textBox1.Text);
                 propertyGrid1.Refresh();
             }
-        }
-
-        private void btnUpdateRichTextBox1_Click(object sender, EventArgs e)
-        {
-            richTextBox1.Text = textBox1.Text;
         }
     }
 }
