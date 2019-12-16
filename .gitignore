@@ -1,8 +1,12 @@
 <<<<<<< HEAD
 
 desktop.ini
+<<<<<<< HEAD
 .vs/ProjectSettings.json
 .vs/slnx.sqlite
 .vs/VSWorkspaceState.json
 =======
 >>>>>>> master
+=======
+*.lock
+>>>>>>> 502c15ff256831d3e7713b2f2e0d0e77859ca76f
