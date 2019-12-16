@@ -1,0 +1,9 @@
+C:\Users\User\Week-10\61030035\Lab10_WindowsFormProperties\folderBrowser\folderBrowser\bin\Debug\folderBrowser.exe.config
+C:\Users\User\Week-10\61030035\Lab10_WindowsFormProperties\folderBrowser\folderBrowser\bin\Debug\folderBrowser.exe
+C:\Users\User\Week-10\61030035\Lab10_WindowsFormProperties\folderBrowser\folderBrowser\bin\Debug\folderBrowser.pdb
+C:\Users\User\Week-10\61030035\Lab10_WindowsFormProperties\folderBrowser\folderBrowser\obj\Debug\folderBrowser.csprojAssemblyReference.cache
+C:\Users\User\Week-10\61030035\Lab10_WindowsFormProperties\folderBrowser\folderBrowser\obj\Debug\folderBrowser.Form1.resources
+C:\Users\User\Week-10\61030035\Lab10_WindowsFormProperties\folderBrowser\folderBrowser\obj\Debug\folderBrowser.Properties.Resources.resources
+C:\Users\User\Week-10\61030035\Lab10_WindowsFormProperties\folderBrowser\folderBrowser\obj\Debug\folderBrowser.csproj.GenerateResource.cache
+C:\Users\User\Week-10\61030035\Lab10_WindowsFormProperties\folderBrowser\folderBrowser\obj\Debug\folderBrowser.exe
+C:\Users\User\Week-10\61030035\Lab10_WindowsFormProperties\folderBrowser\folderBrowser\obj\Debug\folderBrowser.pdb
