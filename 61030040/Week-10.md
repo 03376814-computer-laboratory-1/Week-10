@@ -29,7 +29,7 @@
 __หมายเหตุ__ Form height : 300,  Form width : 225 
 
 ![](./images/fig-01.png)
- 
+ ![](images/Test01.PNG)
 
 2. สร้างหน้าต่างสำหรับเครื่องโทรศัพท์ โดยกำหนดขนาดฟอนต์ Microsoft Sans Serif, 16pt
 
