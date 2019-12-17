@@ -34,6 +34,7 @@ __หมายเหตุ__ Form height : 300,  Form width : 225
 2. สร้างหน้าต่างสำหรับเครื่องโทรศัพท์ โดยกำหนดขนาดฟอนต์ Microsoft Sans Serif, 16pt
 
 ![](./images/fig-02.png)
+ ![](images/Test02.PNG)
 
 
 # 2.	การทดลองย่อยเรื่อง Control ชนิดต่างๆ  
