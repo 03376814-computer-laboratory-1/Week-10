@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Lab10_WindowsFormProperties")]
+[assembly: AssemblyTitle("saveFileDialog")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Lab10_WindowsFormProperties")]
+[assembly: AssemblyProduct("saveFileDialog")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("ddd18abd-6742-4b1a-be86-9376d82d6aa5")]
+[assembly: Guid("6b49d695-6afa-4ea2-a888-9e8c057d5202")]
 
 // Version information for an assembly consists of the following four values:
 //
