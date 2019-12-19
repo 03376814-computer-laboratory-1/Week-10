@@ -1,0 +1,9 @@
+C:\Users\User\Week-10\61030035\Lab10_WindowsFormProperties\Lab10_WindowsFormProperties\bin\Debug\Lab10_WindowsFormProperties.exe.config
+C:\Users\User\Week-10\61030035\Lab10_WindowsFormProperties\Lab10_WindowsFormProperties\bin\Debug\Lab10_WindowsFormProperties.exe
+C:\Users\User\Week-10\61030035\Lab10_WindowsFormProperties\Lab10_WindowsFormProperties\bin\Debug\Lab10_WindowsFormProperties.pdb
+C:\Users\User\Week-10\61030035\Lab10_WindowsFormProperties\Lab10_WindowsFormProperties\obj\Debug\Lab10_WindowsFormProperties.csprojAssemblyReference.cache
+C:\Users\User\Week-10\61030035\Lab10_WindowsFormProperties\Lab10_WindowsFormProperties\obj\Debug\Lab10_WindowsFormProperties.Properties.Resources.resources
+C:\Users\User\Week-10\61030035\Lab10_WindowsFormProperties\Lab10_WindowsFormProperties\obj\Debug\Lab10_WindowsFormProperties.csproj.GenerateResource.cache
+C:\Users\User\Week-10\61030035\Lab10_WindowsFormProperties\Lab10_WindowsFormProperties\obj\Debug\Lab10_WindowsFormProperties.exe
+C:\Users\User\Week-10\61030035\Lab10_WindowsFormProperties\Lab10_WindowsFormProperties\obj\Debug\Lab10_WindowsFormProperties.pdb
+C:\Users\User\Week-10\61030035\Lab10_WindowsFormProperties\Lab10_WindowsFormProperties\obj\Debug\Lab10_WindowsFormProperties.SumTwoNumber.resources
