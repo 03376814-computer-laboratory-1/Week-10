@@ -1,12 +1,7 @@
-<<<<<<< HEAD
-
-desktop.ini
-<<<<<<< HEAD
+/61030006/WindowsFormsApp1/.vs/WindowsFormsApp1/v16/Server/sqlite3/db.lock
+/61030006/SumTwoNumbers/.vs/SumTwoNumbers/v16/Server/sqlite3/db.lock
+/61030006/folderBrowser/.vs/folderBrowser/v16/Server/sqlite3/db.lock
+/61030006/colorDialog/.vs/colorDialog/v16/Server/sqlite3/db.lock
 .vs/ProjectSettings.json
 .vs/slnx.sqlite
 .vs/VSWorkspaceState.json
-=======
->>>>>>> master
-=======
-*.lock
->>>>>>> 502c15ff256831d3e7713b2f2e0d0e77859ca76f
